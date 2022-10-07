@@ -2,37 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.portada{
+  height: 100%;
+  width:100% ;
+  position: absolute;
+}
+ 
+
+h1 {
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 900;
+  color:black;
+} 
+
+
+.registro {
+  margin: 300px;
+  margin-top: 40px;
+}
+
+.nameArtist {
+  text-align: center;
+}
+
+.button {
+  margin-left: 100px;
+}
+
+.card {
+  margin-top: 100px;
+}
+
+.name {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.logger{
+margin-left: 100px;
+}
+
+.carousel{
+  position: absolute;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.slider{
+  height: 100vh;
+  overflow:hidden ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
